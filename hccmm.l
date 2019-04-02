@@ -8,7 +8,7 @@
 
 %%
 
-[a-z]		{ECHO;}
+[a-z]		{printf("Lowercase ");}
 [A-Z]		{printf("Uppercase ");}
 [0-9]		{printf("Digit ");}
 [0-9]+		{printf("Number ");}
